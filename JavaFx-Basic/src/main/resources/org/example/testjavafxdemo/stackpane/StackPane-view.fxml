@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--StackPane works as layers FILO first in last out-->
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+  fx:controller="org.example.testjavafxdemo.stackpane.StackPaneViewController"
+>
+  <Label text="text from label and it is really long"
+    style="-fx-background-color: green"/>
+  <Button text="Button One"
+  style="-fx-background-color: red "/>
+  <Label text="Label"
+    style="-fx-background-color: blue"/>
+</StackPane>

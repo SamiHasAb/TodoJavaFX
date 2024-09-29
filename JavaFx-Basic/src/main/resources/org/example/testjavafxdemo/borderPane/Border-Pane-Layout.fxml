@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+  fx:controller="org.example.testjavafxdemo.borderPane.BorderPaneLayoutController">
+  <top>
+    <Label text=" This label is in the top position"
+      BorderPane.alignment="CENTER"
+      style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed"/>
+  </top>
+  <left>
+    <Label text=" This label is in the left position"
+      BorderPane.alignment="TOP_RIGHT"
+      style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed"/>
+  </left>
+  <right>
+    <Label text=" This label is in the right position"
+      BorderPane.alignment="CENTER_LEFT"
+      style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed"/>
+  </right>
+  <center>
+    <Label text=" This label is in the center position and
+                have a really loooooooooooooooooooooooong text"
+      BorderPane.alignment="CENTER"
+      style="-fx-border-color: blue; -fx-border-width: 3; -fx-border-style: dashed"/>
+  </center>
+  <bottom>
+    <HBox spacing="10" alignment="BOTTOM_RIGHT">
+      <padding>
+        <Insets bottom="20" right="10"/>
+      </padding>
+      <Button text="Okay" prefWidth="150"/>
+      <Button text="Cancel" prefWidth="70" prefHeight="45"/>
+      <Button text="Help" prefHeight="70"/>
+    </HBox>
+  </bottom>
+</BorderPane>
+
+
+
+

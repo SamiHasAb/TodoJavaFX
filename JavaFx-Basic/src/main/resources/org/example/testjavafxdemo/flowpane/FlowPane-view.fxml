@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+
+<!--Example of a horizontal flowPane-->
+<!--<FlowPane xmlns:fx="http://javafx.com/fxml"-->
+<!--  fx:controller="org.example.testjavafxdemo.flowpane.FlowPaneViewController"-->
+<!--  orientation="HORIZONTAL" alignment="BOTTOM_RIGHT"-->
+<!--  style="-fx-border-color: red; -fx-border-width: 7; -fx-border-style: dashed"-->
+<!--  hgap="5" vgap="10"-->
+<!--&gt;-->
+<!--  <padding>-->
+<!--    <Insets bottom="20" right="10"/>-->
+<!--  </padding>-->
+<!--<Button text="Button One"/>-->
+<!--<Button text="Button Tow"/>-->
+<!--<Button text="Button Three"/>-->
+<!--<Button text="Button Four"/>-->
+<!--<Button text="Button Five"/>-->
+<!--<Button text="Button Six"/>-->
+<!--<Button text="Button Seven"/>-->
+<!--<Button text="Button Eight"/>-->
+<!--<Button text="Button Nine"/>-->
+<!--<Button text="Button Ten"/>-->
+<!--<Button text="Button Eleven"/>-->
+<!--<Button text="Button Twelve"/>-->
+<!--</FlowPane>-->
+
+
+<!--Example of a vertical flowPane, alignment="BOTTOM_RIGHT"-->
+<!--<FlowPane xmlns:fx="http://javafx.com/fxml"-->
+<!--fx:controller="org.example.testjavafxdemo.flowpane.FlowPaneViewController"-->
+<!--orientation="VERTICAL" alignment="BOTTOM_RIGHT"-->
+<!--style="-fx-border-color: red; -fx-border-width: 7; -fx-border-style: dashed"-->
+<!--hgap="5" vgap="10"-->
+<!--&gt;-->
+<!--<padding>-->
+<!--  <Insets top="20" left="10"/>-->
+<!--</padding>-->
+<!--<Button text="Button One"/>-->
+<!--<Button text="Button Tow"/>-->
+<!--<Button text="Button Three"/>-->
+<!--<Button text="Button Four"/>-->
+<!--<Button text="Button Five"/>-->
+<!--<Button text="Button Six"/>-->
+<!--<Button text="Button Seven"/>-->
+<!--<Button text="Button Eight"/>-->
+<!--<Button text="Button Nine"/>-->
+<!--<Button text="Button Ten"/>-->
+<!--<Button text="Button Eleven"/>-->
+<!--<Button text="Button Twelve"/>-->
+<!--</FlowPane>-->
+
+
+  <!--Example of a vertical flowPane, alignment="TOP_LEFT"-->
+<!--flowPane is more common to use than Vbox or HBox b/c the button rearrange itself -->
+<FlowPane xmlns:fx="http://javafx.com/fxml"
+fx:controller="org.example.testjavafxdemo.flowpane.FlowPaneViewController"
+orientation="VERTICAL" alignment="TOP_LEFT"
+style="-fx-border-color: red; -fx-border-width: 7; -fx-border-style: dashed"
+hgap="5" vgap="10"
+>
+<padding>
+  <Insets top="20" left="10"/>
+</padding>
+<Button text="Button One"/>
+<Button text="Button Tow"/>
+<Button text="Button Three"/>
+<Button text="Button Four"/>
+<Button text="Button Five"/>
+<Button text="Button Six"/>
+<Button text="Button Seven"/>
+<Button text="Button Eight"/>
+<Button text="Button Nine"/>
+<Button text="Button Ten"/>
+<Button text="Button Eleven"/>
+<Button text="Button Twelve"/>
+</FlowPane>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--  set gridLinesVisible="true" for dibugging -->
+
+<!--<GridPane-->
+<!--  fx:controller="org.example.testjavafxdemo.gridpane.GridPaneButtonViewController"-->
+<!--  xmlns:fx="http://javafx.com/fxml" alignment="CENTER" hgap="10" vgap="10"-->
+<!--  gridLinesVisible="true"-->
+<!--&gt;-->
+
+<!--  <Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0"/>-->
+<!--  <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>-->
+<!--  <Button text="Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0"/>-->
+<!--  <Button text="Button Four is a big button more text more text more text"-->
+<!--    GridPane.rowIndex="1" GridPane.columnIndex="1"/>-->
+<!--  <Button text="Button Five" GridPane.rowIndex="3" GridPane.columnIndex="0"/>-->
+
+<!--</GridPane>-->
+
+<!--&lt;!&ndash;Exzmple - 2&ndash;&gt;-->
+<!--<GridPane-->
+<!--fx:controller="org.example.testjavafxdemo.gridpane.GridPaneButtonViewController"-->
+<!--xmlns:fx="http://javafx.com/fxml" alignment="CENTER" hgap="10" vgap="10"-->
+<!--gridLinesVisible="true">-->
+<!--  <columnConstraints>-->
+<!--    <ColumnConstraints percentWidth="80.0"/>-->
+<!--    <ColumnConstraints percentWidth="20.0"/>-->
+<!--  </columnConstraints>-->
+<!--&lt;!&ndash;  <columnConstraints>&ndash;&gt;-->
+<!--&lt;!&ndash;    <ColumnConstraints percentWidth="50.0"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    <ColumnConstraints percentWidth="50.0"/>&ndash;&gt;-->
+<!--&lt;!&ndash;  </columnConstraints>&ndash;&gt;-->
+<!--&lt;!&ndash;  <columnConstraints>&ndash;&gt;-->
+<!--&lt;!&ndash;    <ColumnConstraints percentWidth="20.0"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    <ColumnConstraints percentWidth="80.0"/>&ndash;&gt;-->
+<!--&lt;!&ndash;  </columnConstraints>&ndash;&gt;-->
+<!--<Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0"/>-->
+<!--<Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>-->
+<!--<Button text="Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0"/>-->
+<!--<Button text="Button Four is a big button more text more text more text"-->
+<!--  GridPane.rowIndex="1" GridPane.columnIndex="1"/>-->
+<!--<Button text="Button Five" GridPane.rowIndex="3" GridPane.columnIndex="0"/>-->
+
+<!--</GridPane>-->
+
+<!--&lt;!&ndash;Exzmple - 3&ndash;&gt;-->
+<!--<?import javafx.geometry.Insets?>-->
+<!--<GridPane-->
+<!--  fx:controller="org.example.testjavafxdemo.gridpane.GridPaneButtonViewController"-->
+<!--  xmlns:fx="http://javafx.com/fxml" alignment="TOP_CENTER" hgap="10" vgap="10"-->
+<!--  gridLinesVisible="true">-->
+<!--  <padding>-->
+<!--    <Insets top="10"/>-->
+<!--  </padding>-->
+<!--  <Button text="Button One" GridPane.rowIndex="0" GridPane.columnIndex="0"/>-->
+<!--  <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1"/>-->
+<!--  <Button text="Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0"/>-->
+<!--  <Button text="Button Four is a big button more text more text more text"-->
+<!--    GridPane.rowIndex="1" GridPane.columnIndex="1"/>-->
+<!--  <Button text="Button Five" GridPane.rowIndex="3" GridPane.columnIndex="0"/>-->
+
+<!--</GridPane>-->
+
+<!--Exzmple - 4- row-span-->
+<?import javafx.geometry.Insets?>
+<GridPane
+  fx:controller="org.example.testjavafxdemo.gridpane.GridPaneButtonViewController"
+  xmlns:fx="http://javafx.com/fxml" alignment="BOTTOM_RIGHT" hgap="10" vgap="10"
+  gridLinesVisible="true">
+  <padding>
+    <Insets topRightBottomLeft="10"/>
+  </padding>
+  <Button text="One" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.halignment="RIGHT"/>
+  <Button text="Button Two" GridPane.rowIndex="0" GridPane.columnIndex="1" GridPane.rowSpan="2"/>
+  <Button text="Button Three" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.halignment="CENTER"/>
+
+  <Button text="Button Four is a big button more text more text more text"
+    GridPane.rowIndex="2" GridPane.columnSpan="2"/>
+    <Button text="Button Five big button" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+
+</GridPane>

@@ -1,0 +1,22 @@
+
+{
+java:S2293f"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÀßÃÃşÿÿÿÿ8ÇéŸø£2
+{
+java:S2293h"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤ÿÓ¿ÿÿÿÿÿ8ÈéŸø£2
+R
+java:S1066Ë"/Merge this if statement with the enclosing one.(á†‹£ùÿÿÿÿ8ËéŸø£2
+J
+java:S1604X"(Make this anonymous inner class a lambda(ñµ¬‘ùÿÿÿÿ8ÒéŸø£2
+J
+java:S1604_"(Make this anonymous inner class a lambda(Ş”¹áúÿÿÿÿ8ÒéŸø£2
+J
+java:S1604i"(Make this anonymous inner class a lambda(ü°³éşÿÿÿÿ8ÓéŸø£2
+J
+java:S1604x"(Make this anonymous inner class a lambda(ÌÚô˜øÿÿÿÿ8ÔéŸø£2
+F
+java:S5411•"(Use a primitive boolean expression here.(­¿¼¥8ÖéŸø£2
+]	java:S125R"<This block of commented-out lines of code should be removed.(šéÇ³ûÿÿÿÿ8ŞêŸø£2
+M	java:S106­"+Replace this use of System.out by a logger.(ò›µüÿÿÿÿ8›ëŸø£2
+Y	java:S125Á"<This block of commented-out lines of code should be removed.(«üÙü8£ëŸø£2
+O
+java:S1068'"-Remove this unused "todoItems" private field.(ËÅ¼ûÿÿÿÿ8ÂëŸø£2
